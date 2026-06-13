@@ -228,7 +228,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.36</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -273,43 +273,43 @@
                             <sourceRoot>${project.build.directory}/generated-sources/</sourceRoot>
                             <wsdlOptions>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/EventService.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/EventService.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/CertificateService_v6_0_1.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/CertificateService_v6_0_3.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/AuthSignatureService_v7_4_1.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/AuthSignatureService_v7_4_1.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/CardTerminalService.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/CardTerminalService.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/CardService_v8_1_2.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/CardService_v8_1_2.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/EncryptionService_v6_1_1.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/EncryptionService_v6_1_1.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
                                 </wsdlOption>
                                 <wsdlOption>
-                                    <wsdl>${project.basedir}/api/api-telematik/conn/SignatureService_V7_5_5.wsdl</wsdl>
+                                    <wsdl>../api-telematik/conn/SignatureService_V7_5_7.wsdl</wsdl>
                                     <extraargs>
                                         <extraarg>-verbose</extraarg>
                                     </extraargs>
